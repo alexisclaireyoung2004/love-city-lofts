@@ -5,11 +5,11 @@ A modern, responsive website for Love City Lofts - vacation rental apartments lo
 
 Love City Lofts offers 8 comfortable one-bedroom apartments in the heart of Cruz Bay. This website provides information about the property, showcases available units, and allows potential guests to contact the property owners.
 
-## 🔗 Live Site
+## Live Site
 
 [View Live Website](https://alexisclaireyoung2004.github.io/love-city-lofts/)
 
-## ✨ Features
+## Features
 
 - **Responsive Design** - Fully optimized for desktop, tablet, and mobile devices
 - **Interactive Photo Gallery** - Click-to-view lightbox for apartment and location photos
@@ -18,7 +18,7 @@ Love City Lofts offers 8 comfortable one-bedroom apartments in the heart of Cruz
 - **Smooth Navigation** - Smooth scrolling between page sections
 - **Location Information** - Details about nearby beaches, restaurants, and attractions
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **HTML5** - Semantic markup and structure
 - **CSS3** - Custom styling with Grid and Flexbox layouts
@@ -37,15 +37,10 @@ love-city-lofts/
 └── README.md           # Project documentation
 ```
 
-## 🚀 Deployment
+## Deployment
 
 This site is deployed using GitHub Pages. Any changes pushed to the `main` branch are automatically deployed.
 
-## 📧 Contact
-
-For inquiries about Love City Lofts:
-- Email: lovecityproperties@gmail.com
-- Location: Cruz Bay, St. John, U.S. Virgin Islands
 
 ## 👨‍💻 Developer
 
