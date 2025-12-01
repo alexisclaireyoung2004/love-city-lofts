@@ -28,7 +28,7 @@ Love City Lofts offers 8 comfortable one-bedroom apartments in the heart of Cruz
 - **Git/GitHub** - Version control
 - **GitHub Pages** - Hosting and deployment
 
-## 📂 Project Structure
+## Project Structure
 ```
 love-city-lofts/
 ├── index.html          # Main HTML file
@@ -42,7 +42,7 @@ love-city-lofts/
 This site is deployed using GitHub Pages. Any changes pushed to the `main` branch are automatically deployed.
 
 
-## 👨‍💻 Developer
+## Developer
 
 Created by Alexis Young
 
