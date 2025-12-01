@@ -56,7 +56,7 @@ body {
 .hero {
     height: 100vh;
     background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), 
-                url('https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1600') center/cover;
+                url('https://a0.muscache.com/im/pictures/c26c10ba-1db7-4e1c-af40-8ecebb8f9436.jpg?im_w=1200') center/cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -275,7 +275,7 @@ body {
 
 .location-content {
     display: grid;
-    grid-template-columns: 1.5fr 1fr;
+    grid-template-columns: 1fr;  /* Single column - full width */
     gap: 2rem;
     margin-bottom: 3rem;
 }
@@ -284,48 +284,18 @@ body {
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    width: 80%;  /* Changed from 100% - makes it 80% width */
+    max-width: 1000px;  /* Maximum width */
+    height: 600px;
+    margin: 0 auto;  /* Centers it */
 }
 
 .map-container iframe {
     display: block;
+    width: 100%;
+    height: 100%;
 }
 
-.nearby-places {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-}
-
-.place-category {
-    background: white;
-    padding: 1.5rem;
-    border-radius: 10px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
-}
-
-.place-category h3 {
-    color: #2c5f8d;
-    margin-bottom: 1rem;
-    font-size: 1.3rem;
-}
-
-.place-category ul {
-    list-style: none;
-}
-
-.place-category li {
-    padding: 0.5rem 0;
-    color: #555;
-    border-bottom: 1px solid #eee;
-}
-
-.place-category li:last-child {
-    border-bottom: none;
-}
-
-.place-category strong {
-    color: #333;
-}
 
 /* Location Info Cards */
 .location-info {
@@ -365,11 +335,10 @@ body {
     }
     
     .location-content {
-        grid-template-columns: 1fr;
-    }
-    
-    .nearby-places {
-        grid-template-columns: 1fr 1fr;
+        display: grid;
+        grid-template-columns: 1fr;  
+        gap: 2rem;
+        margin-bottom: 3rem;
     }
 }
 
@@ -406,8 +375,10 @@ body {
 
 .contact-content {
     display: grid;
-    grid-template-columns: 1.2fr 1fr;
+    grid-template-columns: 1fr;  /* Changed from 1.2fr 1fr - single column */
     gap: 3rem;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .contact-form-wrapper {
@@ -534,26 +505,7 @@ body {
     color: #2c5f8d;
 }
 
-.why-choose {
-    background: #2c5f8d;
-    color: white;
-    padding: 2rem;
-    border-radius: 10px;
-}
 
-.why-choose h4 {
-    margin-bottom: 1rem;
-    font-size: 1.3rem;
-}
-
-.why-choose ul {
-    list-style: none;
-}
-
-.why-choose li {
-    padding: 0.5rem 0;
-    font-size: 0.95rem;
-}
 
 /* Footer */
 .footer {
